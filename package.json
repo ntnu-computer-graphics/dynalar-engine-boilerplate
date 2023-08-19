@@ -1,7 +1,7 @@
 {
   "name": "dynalar-engine",
   "version": "1.0.0",
-  "description": "A simple toy renderer",
+  "description": "A toy renderer for Computer Graphics / IE500217 course at NTNU Ålesund",
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve",
