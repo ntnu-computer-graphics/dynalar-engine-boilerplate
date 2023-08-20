@@ -1,8 +1,4 @@
-import "expect-puppeteer";
-
-test('Renders main page correctly', () => {
-  expect(true).toBeTruthy();
-});
+import "jest-puppeteer";
 
 it("renders correctly", async () => {
   const page = await browser.newPage();
