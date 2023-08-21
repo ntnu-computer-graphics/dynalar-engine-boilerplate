@@ -1,5 +1,3 @@
-import "jest-puppeteer";
-
 it("renders correctly", async () => {
   const page = await browser.newPage();
   await page.goto("http://localhost:9000", { waitUntil: "networkidle0" });

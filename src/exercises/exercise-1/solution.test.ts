@@ -14,6 +14,6 @@ test('that sortMatrix sorts matrix correctly', () => {
         [[4, 6, 7], [7, 4, 7], [8, 4, 7]]
     ]
 
-    return expect(sortMatrix(MATRIX).toString()).toEqual(expected.toString)
+    return expect(sortMatrix(MATRIX).toString()).toEqual(expected.toString())
 })
 

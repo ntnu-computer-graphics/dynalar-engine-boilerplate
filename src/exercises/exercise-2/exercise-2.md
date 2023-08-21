@@ -8,4 +8,12 @@ There is a variable called imageDataArray. This is a flat list which is intended
 
 Once you have determined how to define the pixel properties, you could experiment with different colour effects and gradients. Have fun and get creative.
 
-Hint: As a starting point, try to render a white background to make sure you are able to render something to the screen.  
+Hint: As a starting point, try to render a white background to make sure you are able to render something to the screen.
+
+<hr>
+
+As an additional challange, try to reproduce the following image:
+
+<br>
+
+<img src='spectrum.png' height='256'>
