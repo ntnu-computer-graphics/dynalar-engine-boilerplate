@@ -17,6 +17,10 @@ module.exports = {
         test: /\.glb/,
         type: "asset/resource",
       },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      }
     ],
   },
   resolve: {
