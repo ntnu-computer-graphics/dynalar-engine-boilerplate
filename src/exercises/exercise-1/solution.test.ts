@@ -8,7 +8,12 @@ const MATRIX = [
 ]
 
 test('that sortMatrix sorts matrix correctly', () => {
-    // const matrix: 
-    // return expect(sortMatrix(MATRIX)).toEqual()
+    const expected = [
+        [[4, 3, 1], [3, 5, 2], [4, 6, 2]],
+        [[4, 6, 2], [5, 3, 6], [7, 5, 3]],
+        [[4, 6, 7], [7, 4, 7], [8, 4, 7]]
+    ]
+
+    return expect(sortMatrix(MATRIX).toString()).toEqual(expected.toString)
 })
 

@@ -11,17 +11,7 @@ export function generateImage(canvas: HTMLCanvasElement) {
 
     // Your code goes here:
 
-    for (let i = 0; i < imgHeight; ++i) {
-        for (let j = 0; j < imgWidth; ++j) {
-            let r = Math.floor(0.999 * j / (imgWidth - 1))
-            let g = Math.floor(255.999 * i / (imgHeight - 1))
-            let b = Math.floor(255.999 * 0)
-
-            imageDataArray.push(r, g, b, 255)
-
-        }
-    }
-
+    // This is for your reference, to see how the imageData values are put in.
     for (let i = 0; i < imageData.data.length; i += 4) {
         // Modify pixel data
         imageData.data[i + 0] = imageDataArray[i + 0]; // R value
